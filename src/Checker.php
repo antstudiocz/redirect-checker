@@ -15,7 +15,7 @@ class Checker
 
 	public function __construct($configFile = '')
 	{
-		$this->configFile = __DIR__ . '/../../' . $configFile;
+		$this->configFile = __DIR__ . '/../../../../' . $configFile;
 	}
 
 	public function run()
