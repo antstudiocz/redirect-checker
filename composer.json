@@ -1,0 +1,22 @@
+{
+  "name": "antstudiocz/redirect-checker",
+  "license": "MIT",
+  "require": {
+    "nette/neon": "^2.4",
+    "nette/utils": "^2.4",
+    "ptcong/php-http-class": "^3.0",
+    "symfony/console": "^3.1",
+    "kdyby/console": "^2.6",
+    "adeira/compiler-extension": "^1.0"
+  },
+  "require-dev": {
+    "consistence/coding-standard": "^0.12.0",
+    "slevomat/coding-standard": "^1.0",
+    "nette/tester": "2.0.x-dev as v1.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ant\\RedirectChecker\\": "src/"
+    }
+  }
+}

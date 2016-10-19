@@ -1,0 +1,2 @@
+services:
+	- Ant\RedirectChecker\Checker(%redirect-checker.file%)
